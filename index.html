@@ -24,16 +24,16 @@
 
 				<!-- nav -->
 				<nav>
-					<div id="mainNav">
+					<div class="mainNav">
 						<a href="menu.html">Menu</a>
 						<a href="reservations.html">Reservations</a>
 						<a href="specialOffers.html">Special Offers</a>
 						<a href="contact.html">Contact</a>
 					</div>
 					<div id="social">
-							<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-							<a href="#"><i class="fa-brands fa-twitter"></i></a>
-							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
 					</div>
 				</nav>
 				
@@ -135,15 +135,23 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<div id="footerLeft">
+				<p>Join our mailing list!</p>
+				<input type="email" id="emailAddress" placeholder="Email Address" >
+				<button>Sign Up</button>
+			</div>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<div id="footerRight">
+				<nav class="mainNav">
+					<a href="menu.html">Menu</a>
+					<a href="reservations.html">Reservations</a>
+					<a href="specialOffers.html">Special Offers</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<!-- copyright -->
+
+				<p class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
 		</footer>
 	</div>
 </body>

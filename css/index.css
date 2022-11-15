@@ -114,7 +114,7 @@ header h1 a {
 }
 
 
-#mainNav {
+.mainNav {
     width: 100%;
     display:flex;
     justify-content: space-evenly;
@@ -251,6 +251,29 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+    display: flex;
+}
+
+
+
+#footerLeft {
+    text-align: center;
+    flex-grow: 1;
+}
+
+#footerRight {
+    width: 50%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: right;
+    padding-right: 15%;
+    font-size: 2rem;
 }
 
 /* mobile media query */
