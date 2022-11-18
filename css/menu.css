@@ -162,24 +162,49 @@ header h1 a {
     background-color: rgb(0, 4, 17, .8);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 
+}
+
+.menu-container .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .menu-container h2 {
     text-align: center;
 }
 
+.upper .left {
+    width: 50%;
+}
+
+.upper .left, .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper .menu-section {
+    width: 70%;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .menu-section {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 35%;
     
 }
 
 .menu-item {
-    border: 1px solid greenyellow;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
