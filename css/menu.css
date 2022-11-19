@@ -162,38 +162,20 @@ header h1 a {
     background-color: rgb(0, 4, 17, .8);
     display: flex;
     flex-direction: column;
+    gap: 4rem;
 
-}
-
-.menu-container .upper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .menu-container h2 {
     text-align: center;
 }
 
-.upper .left {
-    width: 50%;
-}
 
-.upper .left, .right {
-    width: 50%;
+.menu-row {
+    width: 100%;
+    padding: 2%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.upper .menu-section {
-    width: 70%;
-}
-
-.lower {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
 
 }
 
@@ -201,6 +183,7 @@ header h1 a {
     display: flex;
     flex-direction: column;
     width: 35%;
+    row-gap: 4rem;
     
 }
 
