@@ -299,8 +299,20 @@ padding: 0% 15%;
         align-items: center;
     }
     /* gallery section */
-    .gallery {
-        height: auto;
+    
+    div.images {
+        margin: 3rem auto;
+        width: 100%;
+        /* max-width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3.5rem;
+    }
+    
+    .images img {
+       max-width:100%;
+       width: 100%;
     }
     
     /* about us section */
