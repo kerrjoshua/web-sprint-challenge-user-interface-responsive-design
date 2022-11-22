@@ -127,9 +127,9 @@ header h1 a {
     gap: 4%;
 }
 
-#social a {
+/* #social a {
     padding:0 1%;
-}
+} */
 
 section {
     border: 1px solid rgb(0, 4, 17);
@@ -277,9 +277,23 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-   header h1 a {
-        font-size: 2rem;
+ 
+
+    header h1 a {
+        font-size: 4rem;
+        
     }
+
+    
+    header div.navs {
+        padding: 2.5%;
+    }
+    
+    header h1 {
+line-height: .75;
+padding: 0% 15%;
+    }
+
     .mainNav {
         flex-direction: column;
         align-items: center;
@@ -332,5 +346,23 @@ footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer * {
+        padding-bottom: 2%;
+    }
+
+    input, button, footer #footerRight, footer #footerLeft {
+        min-width: 90%;
+        align-items: center;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-right: 0;
+        font-size: 1.5rem;
+        width: 75%;
     }
 }
